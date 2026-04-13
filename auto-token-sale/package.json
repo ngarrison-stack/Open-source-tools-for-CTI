@@ -1,0 +1,18 @@
+{
+  "name": "auto-token-sale",
+  "version": "1.0.0",
+  "description": "Auto-sell 40% of BDAG tokens upon airdrop receipt via DEX",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:blockdag": "hardhat run scripts/deploy.js --network blockdag"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0"
+  }
+}
